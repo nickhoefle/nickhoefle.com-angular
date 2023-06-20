@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navbar-link, .navbar-title-link {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+    font-size: 22px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
