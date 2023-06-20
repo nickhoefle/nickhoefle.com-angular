@@ -1,5 +1,7 @@
+@import '~swiper/swiper-bundle.css';
+
 body {
-    background-image: url('./assets/images/Starry.png');
+    background-image: url('./assets/images/black-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
