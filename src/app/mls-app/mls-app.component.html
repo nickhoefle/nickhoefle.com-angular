@@ -1,0 +1,46 @@
+<a class="project-info" href="https://mls-soccer-react-app.vercel.app/">MLStats</a>
+
+<div class="tech-icon-container">
+    <img class="tech-icon" src="../../assets/images/react.png">
+    <img class="tech-icon" src="../../assets/images/tailwindcss.png" alt="tailwind css">
+</div>
+
+<div class="description-container">
+    <p>Developing this application has served as a way for me to get my soccer fix in between St. Louis CITY SC matches. Going beyond the pitch and into the numbers, this 
+        this project includes a homepage spotlighting league leaders, a player search, stat graphs, and a side-by-side player comparison function. 
+        Clicking team logos at the top takes you to individual franchise hubs with rosters, statistics, and charts. Behind the scenes 
+        statistics are stored across multiple JSON files.
+    </p>
+</div>
+
+<div class="slideshow-wrapper">
+    <div class="slideshow-container" id="mlsslides">
+        <div class="mlsslide fade">
+            <a href="../../assets/mls-react/homepage.png">
+                <img class="project-image" src="../../assets/mls-react/homepage.png">
+            </a>
+        </div>
+        
+        <div class="mlsslide fade">
+            <a href="../../assets/mls-react/player-comps.png">
+                <img class="project-image" src="../../assets/mls-react/player-comps.png">
+            </a>
+        </div>
+        
+        <div class="mlsslide fade">
+            <a href="../../assets/mls-react/goaldiff-graph.png">
+                <img class="project-image" src="../../assets/mls-react/goaldiff-graph.png">
+            </a>
+        </div>
+
+        <div class="mlsslide fade">
+            <a href="../../assets/mls-react/salary-chart.png">
+                <img class="project-image" src="../../assets/mls-react/salary-chart.png">
+            </a>
+        </div>
+    </div>
+    <div class="arrows">
+        <a class="prev" (click)="plusSlides(-1)">❮</a>
+        <a class="next" (click)="plusSlides(1)">❯</a>
+    </div>
+</div>
