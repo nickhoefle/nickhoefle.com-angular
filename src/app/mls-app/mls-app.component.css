@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+.description-container {
+    display:flex; 
+    justify-content:center; 
+    align-items:center; width:50vw; 
+    margin:0 auto;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.project-image {
+    height: 550px;
+    max-width: 1300px;
+}
+
+.tech-icon {
+    height: 75px;
+}
+
+.tech-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Slideshow CSS */
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.left-arrow,
+.right-arrow {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: darkgrey;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 3px;
+    user-select: none;
+}
+
+.prev, .next {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+.slideshow-container {
+    height:550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    outline: 2px solid white;
+}
+
+
+.slideshow-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 300px) {
+    .left-arrow,
+    .right-arrow,
+    .text {
+        font-size: 11px;
+    }
+}

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-freezeout',
-  templateUrl: './freezeout.component.html',
-  styleUrls: ['./freezeout.component.css']
+  selector: 'app-mls-app',
+  templateUrl: './mls-app.component.html',
+  styleUrls: ['./mls-app.component.css']
 })
-export class FreezeoutComponent {
+export class MLSAppComponent {
   slideIndex: number = 1;
 
   ngOnInit() {
@@ -22,7 +22,7 @@ export class FreezeoutComponent {
 
   showSlides(n: number) {
     let i: number;
-    const slides: HTMLElement[] = Array.from(document.getElementById("freezeoutSlides")?.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>);
+    const slides: HTMLElement[] = Array.from(document.getElementById("mlsslides")?.getElementsByClassName("mlsslide") as HTMLCollectionOf<HTMLElement>);
     if (n > slides.length) {
       this.slideIndex = 1;
     }
