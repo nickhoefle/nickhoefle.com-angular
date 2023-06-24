@@ -1,0 +1,45 @@
+<a class="project-info" href="https://nickhoefle.com/blog">Food and Cooking Blog</a>
+
+<div class="tech-icon-container">
+    <img class="tech-icon" src="../../assets/images/nextjs.png">
+    <img class="tech-icon" src="../../assets/images/tailwindcss.png" alt="tailwind css">
+</div>
+
+<div class="description-container">
+    <p>Cooking has been a passion of mine for as long as I can remember. I designed this blog to memorialize recipies and dishes, retain notes, and share 
+        culinary undertakings. Features include cards for and routing to individual recipies, recent post/similar post sidebars, categories, and commenting.
+        All of this is made possible with GraphQL integration via graphcms.   
+    </p>
+</div>
+
+<div class="slideshow-wrapper">
+    <div class="slideshow-container" id="cookingSlides">
+        <div class="cookingSlide fade">
+            <a href="../../assets/cooking/top-homepage.png">
+                <img class="project-image" src="../../assets/cooking/top-homepage.png">
+            </a>
+        </div>
+        
+        <div class="cookingSlide fade">
+            <a href="../../assets/cooking/related-posts-lg.png">
+                <img class="project-image" src="../../assets/cooking/related-posts-lg.png">
+            </a>
+        </div>
+        
+        <div class="cookingSlide fade">
+            <a href="../../assets/cooking/sidebars.png">
+                <img class="project-image" src="../../assets/cooking/sidebars.png">
+            </a>
+        </div>
+
+        <div class="cookingSlide fade">
+            <a href="../../assets/cooking/comments.png">
+                <img class="project-image" src="../../assets/cooking/comments.png">
+            </a>
+        </div>
+    </div>
+    <div class="arrows">
+        <a class="prev" (click)="plusSlides(-1)">❮</a>
+        <a class="next" (click)="plusSlides(1)">❯</a>
+    </div>
+</div>

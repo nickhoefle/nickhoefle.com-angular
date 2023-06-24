@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FreezeoutComponent } from './freezeout/freezeout.component';
 import { MLSAppComponent } from './mls-app/mls-app.component';
+import { CcComponentComponent } from './cc-component/cc-component.component';
+import { CookingComponent } from './cooking/cooking.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MLSAppComponent } from './mls-app/mls-app.component';
     NavbarComponent,
     ProjectsComponent,
     FreezeoutComponent,
-    MLSAppComponent
+    MLSAppComponent,
+    CcComponentComponent,
+    CookingComponent
   ],
   imports: [
     BrowserModule,
