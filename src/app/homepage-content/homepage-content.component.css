@@ -1,0 +1,42 @@
+#close-bracket {
+  font-size:160px; 
+  margin:0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 5vh;
+}
+  
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#intro-paragraph {
+  font-size: 28px;
+}
+
+#nhImage {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  width: 20vh;
+  padding-top: 20px;
+}
+
+#open-bracket {
+  font-size:160px; 
+  padding-right: 20px; 
+  margin:0;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
