@@ -10,6 +10,7 @@ import { MLSAppComponent } from './mls-app/mls-app.component';
 import { CcComponentComponent } from './cc-component/cc-component.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { HomepageContentComponent } from './homepage-content/homepage-content.component';
+import { OzarksComponent } from './ozarks/ozarks.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomepageContentComponent } from './homepage-content/homepage-content.co
     MLSAppComponent,
     CcComponentComponent,
     CookingComponent,
-    HomepageContentComponent
+    HomepageContentComponent,
+    OzarksComponent
   ],
   imports: [
     BrowserModule,
