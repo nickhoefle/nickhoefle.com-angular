@@ -1,6 +1,7 @@
 #close-bracket {
   font-size:160px; 
   margin:0;
+  padding-top: 10px;
 }
 
 .container {
@@ -32,6 +33,7 @@
   font-size:160px; 
   padding-right: 20px; 
   margin:0;
+  padding-top: 10px;
 }
 
 #text-container {
@@ -39,4 +41,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  #close-bracket {
+    font-size:100px; 
+    margin:0;
+    padding-top: 35px;
+  }
+
+  #intro-paragraph {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .nh-bullets {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #nhImage {
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+    width: 18vh;
+    padding-top: 20px;
+  }
+  
+  #open-bracket {
+    font-size:100px; 
+    padding-right: 20px; 
+    margin:0;
+    padding-top: 35px;
+  }
 }
