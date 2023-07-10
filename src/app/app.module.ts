@@ -11,6 +11,7 @@ import { CcComponentComponent } from './cc-component/cc-component.component';
 import { CookingComponent } from './cooking/cooking.component';
 import { HomepageContentComponent } from './homepage-content/homepage-content.component';
 import { OzarksComponent } from './ozarks/ozarks.component';
+import { HamburgerDropdownComponent } from './hamburger-dropdown/hamburger-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OzarksComponent } from './ozarks/ozarks.component';
     CcComponentComponent,
     CookingComponent,
     HomepageContentComponent,
-    OzarksComponent
+    OzarksComponent,
+    HamburgerDropdownComponent
   ],
   imports: [
     BrowserModule,
