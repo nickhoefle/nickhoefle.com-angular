@@ -16,13 +16,12 @@
 }
 
 .mobile-image {
-    display: none; /* Hide mobile image on desktop */
+    display: none;
 }
 
 .mobile-link {
-    display: none; /* Hide mobile link initially */
-    position: absolute; /* Position it as necessary */
-    /* Add additional styles as needed */
+    display: none; 
+    position: absolute; 
 }
 
 .project-info {
