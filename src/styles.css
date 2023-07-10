@@ -4,7 +4,6 @@ body {
     background-color: black;
 }
 
-
 h1, p, li {
     font-family: Century Gothic;
     color: white;
@@ -18,7 +17,7 @@ h1, p, li {
     .tech-icon {
         height: 60px;
     }
-  }
+}
 
 
 
