@@ -99,15 +99,6 @@
     }
 }
 
-/* Media Queries */
-@media only screen and (max-width: 300px) {
-    .left-arrow,
-    .right-arrow,
-    .text {
-        font-size: 11px;
-    }
-}
-
 @media only screen and (max-width: 480px) {
     .description-container {
         width: 95%;
@@ -129,7 +120,7 @@
     }
 
     .mobile-link {
-        display: inline; /* Show mobile link on mobile */
+        display: inline; 
     }
     
     .slideshow-container {
