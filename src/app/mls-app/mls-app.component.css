@@ -14,13 +14,8 @@
     max-width: 1000px;
 }
 
-.mobile-image {
+.mobile-image, .mobile-link {
     display: none;
-}
-
-.mobile-link {
-    display: none; 
-    position: absolute; 
 }
 
 .project-info {
@@ -47,8 +42,7 @@
     justify-content: center;
 }
 
-
-/* Slideshow CSS */
+/*  Slideshow CSS  */
 .arrow-container {
     display: flex;
     justify-content: center;
@@ -99,7 +93,6 @@
     justify-content: center;
 }
 
-
 @keyframes fade {
     from {
         opacity: 0.4;
@@ -110,14 +103,6 @@
 }
 
 /* Media Queries */
-@media only screen and (max-width: 300px) {
-    .left-arrow,
-    .right-arrow,
-    .text {
-        font-size: 11px;
-    }
-}
-
 @media only screen and (max-width: 480px) {
     .description-container {
         width: 95%;
