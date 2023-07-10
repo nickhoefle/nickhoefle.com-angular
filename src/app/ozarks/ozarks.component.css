@@ -19,9 +19,18 @@
     font-weight: bold;
 }
 
-.project-image {
+.desktop-image {
     height: 450px;
     max-width: 1000px;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.mobile-link {
+    display: none; 
+    position: absolute; 
 }
 
 .tech-icon {
@@ -110,16 +119,28 @@
         text-align: center;
     }
 
-    .project-image {
+    .desktop-image {
+        display: none; 
+    }
+
+    .mobile-image {
+        display: block; 
         width: 100%;
     }
 
-    .project-info {
-        text-align: center;
+    .mobile-image-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .mobile-link {
+        display: inline; /* Show mobile link on mobile */
     }
     
     .slideshow-container {
-        width: 95%;
+        width: 100%;
+        height: 414px;
     }
 
     .tech-icon {

@@ -9,6 +9,20 @@
     margin:0 auto;
 }
 
+.desktop-image {
+    height: 550px;
+    max-width: 1000px;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.mobile-link {
+    display: none; 
+    position: absolute; 
+}
+
 .project-info {
     display: flex;
     justify-content: center;
