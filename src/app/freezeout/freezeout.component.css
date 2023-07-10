@@ -15,13 +15,8 @@
     max-width: 1000px;
 }
 
-.mobile-image {
+.mobile-image, .mobile-link {
     display: none;
-}
-
-.mobile-link {
-    display: none; 
-    position: absolute; 
 }
 
 .project-info {
