@@ -19,9 +19,18 @@
     font-weight: bold;
 }
 
-.project-image {
+.desktop-image {
     height: 450px;
     max-width: 1000px;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.mobile-link {
+    display: none; 
+    position: absolute; 
 }
 
 .tech-icon {
@@ -101,5 +110,40 @@
     .right-arrow,
     .text {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .description-container {
+        width: 95%;
+        text-align: center;
+    }
+
+    .desktop-image {
+        display: none; 
+    }
+
+    .mobile-image {
+        display: block; 
+        width: 100%;
+    }
+
+    .mobile-image-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .mobile-link {
+        display: inline; /* Show mobile link on mobile */
+    }
+    
+    .slideshow-container {
+        width: 100%;
+        height: 414px;
+    }
+
+    .tech-icon {
+        height: 60px;
     }
 }

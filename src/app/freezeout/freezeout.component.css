@@ -5,8 +5,23 @@
 .description-container {
     display:flex; 
     justify-content:center; 
-    align-items:center; width:50vw; 
+    align-items:center; 
+    width:50vw; 
     margin:0 auto;
+}
+
+.desktop-image {
+    height: 350px;
+    max-width: 1000px;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.mobile-link {
+    display: none; 
+    position: absolute; 
 }
 
 .project-info {
@@ -17,11 +32,6 @@
     color: white;
     font-family: Century Gothic;
     font-weight: bold;
-}
-
-.project-image {
-    height: 350px;
-    max-width: 1000px;
 }
 
 .tech-icon {
@@ -77,7 +87,6 @@
     outline: 2px solid white;
 }
 
-
 .slideshow-wrapper {
     display: flex;
     flex-direction: column;
@@ -101,5 +110,39 @@
     .right-arrow,
     .text {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .description-container {
+        width: 95%;
+        text-align: center;
+    }
+
+    .desktop-image {
+        display: none; 
+    }
+
+    .mobile-image {
+        display: block; 
+        height: 425px;
+    }
+
+    .mobile-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-link {
+        display: inline; /* Show mobile link on mobile */
+    }
+    
+    .slideshow-container {
+        height: 425px;
+        width: 197px;
+    }
+
+    .tech-icon {
+        height: 60px;
     }
 }
