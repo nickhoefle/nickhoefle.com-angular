@@ -1,0 +1,33 @@
+<div class="mobile-navbar-header">
+    <div class="hamburger" (click)="toggleMenu()">
+        <p id="hamburger-icon">☰</p>
+    </div>
+    <div id="page-title-container">
+        <a href="/" id="page-title">nickhoefle.com</a>
+    </div>
+</div>
+
+<ul class="menu" [ngClass]="{ 'open': isMenuOpen }">
+    <li class="hamburger-item">
+        <a class="hamburger-link" href="/">Home</a>
+    </li>
+    <li class="hamburger-item">
+        <a class="hamburger-link" href="/projects">Projects</a>
+    </li>
+    <li class="hamburger-item">
+        <a class="hamburger-link" href="/resume">Resume</a>
+    </li>
+    <li class="hamburger-item">
+        <a class="hamburger-link" href="/about">About</a>
+    </li>
+    <li class="hamburger-item">
+        <a href="https://github.com/nickhoefle" class="hamburger-link">
+            <img id="github-icon" src="../../assets/images/github-mark-white.png">GitHub
+        </a>
+    </li>
+    <li class="hamburger-item">
+        <a href="https://www.linkedin.com/in/nick-hoefle-0468b5101/" class="hamburger-link">
+            <img id="linkedin-icon" src="../../assets/images/images.png">LinkedIn
+        </a>    
+    </li>
+</ul>

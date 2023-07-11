@@ -1,0 +1,58 @@
+#github-icon {
+    height: 22px; 
+    padding-right: 10px;
+}
+
+.hamburger {
+    margin-top: 0;
+}
+
+#hamburger-icon {
+    color:white; 
+    font-size: 36px; 
+    margin: 8px; 
+    text-align: left;
+}
+
+.hamburger-item {
+    text-align: left; 
+    font-size: 28px;
+}
+
+.hamburger-link {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#linkedin-icon {
+    height: 20px; 
+    padding-right: 10px;
+}
+
+#page-title {
+    color:white; 
+    font-size: 24px; 
+    text-align: right; 
+    text-decoration: none;
+}
+
+#page-title-container {
+    padding-top: 12px;
+}
+
+.menu {
+    display: none;
+    list-style-type: none;
+    margin: 0px 200px 0px 12px; 
+    outline: 2px solid white; 
+    padding: 6px 0px 10px 10px;
+}
+
+.mobile-navbar-header {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.open {
+    display: block;
+}
