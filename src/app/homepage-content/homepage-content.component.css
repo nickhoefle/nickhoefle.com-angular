@@ -12,6 +12,10 @@
   padding-top: 5vh;
 }
 
+.hamburger-dropdown {
+  display: none;
+}
+
 #image-container {
   display: flex;
   justify-content: center;
@@ -49,6 +53,10 @@
     margin:0;
     padding-top: 35px;
   }
+
+  .hamburger-dropdown {
+    display: block;
+}
 
   #intro-paragraph {
     font-size: 28px;
