@@ -32,9 +32,12 @@
 #page-title {
     color:white; 
     font-size: 24px; 
-    margin: 8px; 
     text-align: right; 
-    padding-top: 6px;
+    text-decoration: none;
+}
+
+#page-title-container {
+    padding-top: 12px;
 }
 
 .menu {
