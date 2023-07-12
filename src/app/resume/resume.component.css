@@ -1,0 +1,23 @@
+.hamburger-dropdown {
+    display: none;
+}
+
+#resume-container {
+    padding: 0 20vw 0 20vw;
+}
+
+#resume-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 480px) {    
+    .hamburger-dropdown {
+        display: block;
+    }
+    
+    .navbar-desktop {
+        display: none;
+    }
+}
