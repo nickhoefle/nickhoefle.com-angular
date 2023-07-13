@@ -13,6 +13,7 @@ import { HomepageContentComponent } from './homepage-content/homepage-content.co
 import { OzarksComponent } from './ozarks/ozarks.component';
 import { HamburgerDropdownComponent } from './hamburger-dropdown/hamburger-dropdown.component';
 import { ResumeComponent } from './resume/resume.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ResumeComponent } from './resume/resume.component';
     HomepageContentComponent,
     OzarksComponent,
     HamburgerDropdownComponent,
-    ResumeComponent
+    ResumeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
