@@ -1,0 +1,43 @@
+#about-container {
+    padding-bottom: 50px;
+}
+
+#about-header, #contact-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-text, #contact-container {
+    text-align: center;
+}
+
+#content-container {
+    display:flex;
+    flex-direction: column;  
+    width:50vw; 
+    margin:0 auto;
+}
+
+.hamburger-dropdown {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    #about-container {
+        padding-bottom: 0px;
+    }
+    
+    #content-container {
+        display: flex;
+        flex-direction: column;  
+        width: 100vw;
+    }
+    
+    .hamburger-dropdown {
+        display: block;
+    }
+    
+    .navbar-desktop {
+        display: none;
+    }
+}
