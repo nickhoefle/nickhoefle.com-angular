@@ -1,0 +1,114 @@
+.bulleted-list {
+    list-style-position: inside; 
+    padding: 0;
+    margin: 0;
+}
+
+#download-icons-container {
+    display: flex; 
+    justify-content: center;
+}
+
+#final-job {
+    padding-bottom: 16px;
+}
+
+.hamburger-dropdown {
+    display: none;
+}
+
+#last-bulleted-list {
+    list-style-position: inside; 
+}
+
+#launchcode {
+    padding-bottom: 15px
+}
+
+#middle-job {
+    padding: 24px 0 24px 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+#pdf-icon {
+    height: 70px;
+}
+
+#resume-container {
+    padding: 0 20vw 0 20vw;
+}
+
+#resume-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.same-line {
+    text-align: right; 
+    margin: 0; 
+    display: flex;
+    justify-content: space-between ;
+}
+
+.section-header {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+#skills-list {
+    padding-bottom: 60px;
+}
+
+#word-icon {
+    height: 55px;
+    padding: 8px 12px 0 0;
+}
+
+#umsl {
+    padding-bottom: 28px;
+}
+
+.years {
+    text-align: right; 
+    margin: 0; 
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 480px) {    
+    i,
+    p,
+    .same-line,
+    .section-header, 
+    .years {
+        display: block;
+        text-align: center;
+    }
+
+    #final-job {
+        padding-bottom: 0px;
+    }
+    
+    .hamburger-dropdown {
+        display: block;
+    }
+
+    li {
+        list-style: none;
+        text-align: center;
+        padding: 0 0 15px 0;
+        line-height: 1.0;
+    }
+
+    .navbar-desktop {
+        display: none;
+    }
+
+    #resume-container {
+        padding: 0 0vw 0 0vw;
+    }
+}

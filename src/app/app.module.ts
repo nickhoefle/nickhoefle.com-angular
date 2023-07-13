@@ -12,6 +12,7 @@ import { CookingComponent } from './cooking/cooking.component';
 import { HomepageContentComponent } from './homepage-content/homepage-content.component';
 import { OzarksComponent } from './ozarks/ozarks.component';
 import { HamburgerDropdownComponent } from './hamburger-dropdown/hamburger-dropdown.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HamburgerDropdownComponent } from './hamburger-dropdown/hamburger-dropd
     CookingComponent,
     HomepageContentComponent,
     OzarksComponent,
-    HamburgerDropdownComponent
+    HamburgerDropdownComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
