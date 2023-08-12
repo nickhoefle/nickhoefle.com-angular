@@ -14,6 +14,7 @@ import { OzarksComponent } from './ozarks/ozarks.component';
 import { HamburgerDropdownComponent } from './hamburger-dropdown/hamburger-dropdown.component';
 import { ResumeComponent } from './resume/resume.component';
 import { AboutComponent } from './about/about.component';
+import { MediaMosaicComponent } from './media-mosaic/media-mosaic.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AboutComponent } from './about/about.component';
     OzarksComponent,
     HamburgerDropdownComponent,
     ResumeComponent,
-    AboutComponent
+    AboutComponent,
+    MediaMosaicComponent
   ],
   imports: [
     BrowserModule,
